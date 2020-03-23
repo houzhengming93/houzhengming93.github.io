@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>侯争明的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-03-23T11:44:27.631Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>侯争明</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>spring条件判断</title>
+    <link href="http://yoursite.com/2020/03/23/spring%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/"/>
+    <id>http://yoursite.com/2020/03/23/spring%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</id>
+    <published>2020-03-23T11:42:52.000Z</published>
+    <updated>2020-03-23T11:44:27.631Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring-条件判断"><a href="#Spring-条件判断" class="headerlink" title="Spring 条件判断"></a>Spring 条件判断</h1>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Spring-条件判断&quot;&gt;&lt;a href=&quot;#Spring-条件判断&quot; class=&quot;headerlink&quot; title=&quot;Spring 条件判断&quot;&gt;&lt;/a&gt;Spring 条件判断&lt;/h1&gt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Spring" scheme="http://yoursite.com/tags/Spring/"/>
+    
+  </entry>
+  
+</feed>
