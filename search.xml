@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>jiayi</title>
+    <url>/2020/04/09/jiayi/</url>
+    <content><![CDATA[<p>1123123123</p>
+]]></content>
+  </entry>
+  <entry>
     <title>datalist</title>
     <url>/2020/04/08/datalist/</url>
     <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"#"</span>&gt;</span></span><br><span class="line">    输入你喜欢的编程语言:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"lang"</span> <span class="attr">list</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"java"</span>&gt;</span>java大法好<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"javaScript"</span>&gt;</span>javaScript更牛叉<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c"</span>&gt;</span>c比较难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c#"</span>&gt;</span>微软的贼船不要上<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c++"</span>&gt;</span>比c还难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>

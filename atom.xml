@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-08T06:58:51.862Z</updated>
+  <updated>2020-04-09T08:53:20.897Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,34 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>jiayi</title>
+    <link href="http://yoursite.com/2020/04/09/jiayi/"/>
+    <id>http://yoursite.com/2020/04/09/jiayi/</id>
+    <published>2020-04-09T08:53:16.000Z</published>
+    <updated>2020-04-09T08:53:20.897Z</updated>
+    
+    <content type="html"><![CDATA[<p>1123123123</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1123123123&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>datalist</title>
     <link href="http://yoursite.com/2020/04/08/datalist/"/>
     <id>http://yoursite.com/2020/04/08/datalist/</id>
     <published>2020-04-08T06:58:05.000Z</published>
-    <updated>2020-04-08T06:58:51.862Z</updated>
+    <updated>2020-04-08T10:21:58.306Z</updated>
     
     <content type="html"><![CDATA[<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"#"</span>&gt;</span></span><br><span class="line">    输入你喜欢的编程语言:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"lang"</span> <span class="attr">list</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"java"</span>&gt;</span>java大法好<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"javaScript"</span>&gt;</span>javaScript更牛叉<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c"</span>&gt;</span>c比较难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c#"</span>&gt;</span>微软的贼船不要上<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c++"</span>&gt;</span>比c还难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
     
