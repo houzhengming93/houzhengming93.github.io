@@ -1,31 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>jiayi</title>
-    <url>/2020/04/09/jiayi/</url>
-    <content><![CDATA[<p>1123123123</p>
-]]></content>
-  </entry>
-  <entry>
-    <title>datalist</title>
-    <url>/2020/04/08/datalist/</url>
-    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"#"</span>&gt;</span></span><br><span class="line">    输入你喜欢的编程语言:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"lang"</span> <span class="attr">list</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"java"</span>&gt;</span>java大法好<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"javaScript"</span>&gt;</span>javaScript更牛叉<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c"</span>&gt;</span>c比较难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c#"</span>&gt;</span>微软的贼船不要上<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c++"</span>&gt;</span>比c还难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
-    <title>NewSpan</title>
-    <url>/2020/04/08/NewSpan/</url>
-    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Span a = tracer.nextSpan().name(<span class="string">"a"</span>);</span><br><span class="line">a.start().finish();;</span><br><span class="line">tracer.withSpanInScope(a);</span><br></pre></td></tr></table></figure>
-
-]]></content>
-  </entry>
-  <entry>
-    <title>查询导致的BUG</title>
-    <url>/2020/03/25/%E6%9F%A5%E8%AF%A2%E5%AF%BC%E8%87%B4%E7%9A%84BUG/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>Client创建失败</title>
     <url>/2020/03/24/Client%E5%88%9B%E5%BB%BA%E5%A4%B1%E8%B4%A5/</url>
     <content><![CDATA[<h2 id="Feign-Client-导致的启动失败"><a href="#Feign-Client-导致的启动失败" class="headerlink" title="Feign Client 导致的启动失败"></a>Feign Client 导致的启动失败</h2><h3 id="故障现象"><a href="#故障现象" class="headerlink" title="故障现象"></a>故障现象</h3><p>今天一位同事写了一个FeignClient接口，引用后应用启动失败</p>
@@ -51,6 +26,20 @@
       </tags>
   </entry>
   <entry>
+    <title>datalist</title>
+    <url>/2020/04/08/datalist/</url>
+    <content><![CDATA[<figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"#"</span>&gt;</span></span><br><span class="line">    输入你喜欢的编程语言:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"lang"</span> <span class="attr">list</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"java"</span>&gt;</span>java大法好<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"javaScript"</span>&gt;</span>javaScript更牛叉<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c"</span>&gt;</span>c比较难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c#"</span>&gt;</span>微软的贼船不要上<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c++"</span>&gt;</span>比c还难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
+    <title>NewSpan</title>
+    <url>/2020/04/08/NewSpan/</url>
+    <content><![CDATA[<figure class="highlight java"><table><tr><td class="code"><pre><span class="line">Span a = tracer.nextSpan().name(<span class="string">"a"</span>);</span><br><span class="line">a.start().finish();;</span><br><span class="line">tracer.withSpanInScope(a);</span><br></pre></td></tr></table></figure>
+
+]]></content>
+  </entry>
+  <entry>
     <title>spring条件判断</title>
     <url>/2020/03/23/spring%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</url>
     <content><![CDATA[<h1 id="Spring-条件判断"><a href="#Spring-条件判断" class="headerlink" title="Spring 条件判断"></a>Spring 条件判断</h1><figure class="highlight java"><table><tr><td class="code"><pre><span class="line"><span class="keyword">package</span> com.dffl.warehouse.billing.config.datasource.druid;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.alibaba.druid.support.http.StatViewServlet;</span><br><span class="line"><span class="keyword">import</span> com.alibaba.druid.support.http.WebStatFilter;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.web.servlet.FilterRegistrationBean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.web.servlet.ServletRegistrationBean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Bean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Configuration;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Slf</span>4j</span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DruidConfig</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Bean</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> ServletRegistrationBean <span class="title">druidServlet</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		ServletRegistrationBean bean = <span class="keyword">new</span> ServletRegistrationBean(<span class="keyword">new</span> StatViewServlet(), <span class="string">"/druid/*"</span>);</span><br><span class="line"><span class="comment">//		bean.addInitParameter("allow", "127.0.0.1");</span></span><br><span class="line">		bean.addInitParameter(<span class="string">"resetEnable"</span>, <span class="string">"false"</span>);</span><br><span class="line">		bean.addInitParameter(<span class="string">"loginUsername"</span>, <span class="string">"admin"</span>);</span><br><span class="line">		bean.addInitParameter(<span class="string">"loginPassword"</span>, <span class="string">"987654"</span>);</span><br><span class="line">		<span class="keyword">return</span> bean;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">	<span class="meta">@Bean</span></span><br><span class="line">	<span class="function"><span class="keyword">public</span> FilterRegistrationBean <span class="title">statFilter</span><span class="params">()</span> </span>&#123;</span><br><span class="line">		FilterRegistrationBean bean = <span class="keyword">new</span> FilterRegistrationBean(<span class="keyword">new</span> WebStatFilter());</span><br><span class="line">		bean.addUrlPatterns(<span class="string">"/*"</span>);</span><br><span class="line">		bean.addInitParameter(<span class="string">"exclusions"</span>, <span class="string">"*.js,*.gif,/druid/*"</span>);</span><br><span class="line">		<span class="keyword">return</span> bean;</span><br><span class="line">	&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -59,5 +48,10 @@
       <tags>
         <tag>Spring</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>查询导致的BUG</title>
+    <url>/2020/03/25/%E6%9F%A5%E8%AF%A2%E5%AF%BC%E8%87%B4%E7%9A%84BUG/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
