@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>侯争明的博客</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://yoursite.com/"/>
+  <updated>2020-06-11T15:01:43.057Z</updated>
+  <id>http://yoursite.com/</id>
+  
+  <author>
+    <name>侯争明</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>版本号规则</title>
+    <link href="http://yoursite.com/2020/06/11/%E7%89%88%E6%9C%AC%E5%8F%B7%E8%A7%84%E5%88%99/"/>
+    <id>http://yoursite.com/2020/06/11/%E7%89%88%E6%9C%AC%E5%8F%B7%E8%A7%84%E5%88%99/</id>
+    <published>2020-06-11T14:38:07.000Z</published>
+    <updated>2020-06-11T15:01:43.057Z</updated>
+    
+    <content type="html"><![CDATA[<p>软件版本号规则</p><p>例如：</p><table><thead><tr><th>软件</th><th>升级过程</th><th>说明</th></tr></thead><tbody><tr><td>Linux Kernel</td><td>0.0.1 1.0.0 2.6.32</td><td>若用X.Y.Z表示，则奇数Y表示开发版本，偶数Y表示稳定版本</td></tr><tr><td>Windows</td><td>98,2000，XP，7,10</td><td>杂乱无章，毫无规律</td></tr><tr><td>SSH client</td><td>0.9.8</td><td></td></tr><tr><td>OpenStack</td><td>2014.1.3</td><td></td></tr></tbody></table><table><thead><tr><th>序号</th><th>格式要求</th><th>说明</th></tr></thead><tbody><tr><td>X</td><td>非负整数</td><td>表示主版本号，当API发生兼容变化时，X需递增</td></tr><tr><td>Y</td><td>非负整数</td><td>表示此版本号，当增加功能时（不影响API兼容），Y需要递增</td></tr><tr><td>Z</td><td>非负整数</td><td>表示修订版本号，当作BUG修复时（不影响API兼容时），Z需要递增</td></tr></tbody></table><table><thead><tr><th>描述方式</th><th>说明</th><th>含义</th></tr></thead><tbody><tr><td>Snapshot</td><td>快照版本</td><td>尚不稳定，尚处于开发中的版本</td></tr><tr><td>Release</td><td>稳定版本</td><td>功能稳定，可以对外发型，但有时间限制</td></tr><tr><td>GA</td><td>正式版本</td><td>代表广泛可用的稳定版本</td></tr><tr><td>M</td><td>里程碑版本</td><td>具有一些全新的功能或具有里程碑意义的版本</td></tr><tr><td>RC</td><td>终测版本</td><td>Release Candidate（最终测试），即将作为正式版本发布</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;软件版本号规则&lt;/p&gt;
+&lt;p&gt;例如：&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;软件&lt;/th&gt;
+&lt;th&gt;升级过程&lt;/th&gt;
+&lt;th&gt;说明&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;&lt;tr&gt;
+&lt;td&gt;Linux Kernel&lt;/td&gt;
+&lt;td&gt;0.
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Java是值传递引用传递</title>
+    <link href="http://yoursite.com/2020/06/11/Java%E6%98%AF%E5%80%BC%E4%BC%A0%E9%80%92%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92/"/>
+    <id>http://yoursite.com/2020/06/11/Java%E6%98%AF%E5%80%BC%E4%BC%A0%E9%80%92%E5%BC%95%E7%94%A8%E4%BC%A0%E9%80%92/</id>
+    <published>2020-06-11T14:37:41.000Z</published>
+    <updated>2020-06-11T14:37:41.607Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>多线程</title>
+    <link href="http://yoursite.com/2020/06/08/%E5%A4%9A%E7%BA%BF%E7%A8%8B/"/>
+    <id>http://yoursite.com/2020/06/08/%E5%A4%9A%E7%BA%BF%E7%A8%8B/</id>
+    <published>2020-06-08T11:51:45.000Z</published>
+    <updated>2020-06-08T12:58:48.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="并发和并行"><a href="#并发和并行" class="headerlink" title="并发和并行"></a>并发和并行</h2><p>单核心CPU也可以多线程-&gt;CPU的时间片段切换</p><h2 id="多线程的特点："><a href="#多线程的特点：" class="headerlink" title="多线程的特点："></a>多线程的特点：</h2><pre><code>1.    **异步**   2.    **并行**</code></pre><h3 id="三种方式"><a href="#三种方式" class="headerlink" title="三种方式"></a>三种方式</h3><p>Runable</p><p>Thread</p><p>Callable/Future 带返回值</p><h3 id="工具使用"><a href="#工具使用" class="headerlink" title="工具使用"></a>工具使用</h3><p>网络请求分发的场景</p><p>文件导入</p><p>异步处理</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;并发和并行&quot;&gt;&lt;a href=&quot;#并发和并行&quot; class=&quot;headerlink&quot; title=&quot;并发和并行&quot;&gt;&lt;/a&gt;并发和并行&lt;/h2&gt;&lt;p&gt;单核心CPU也可以多线程-&amp;gt;CPU的时间片段切换&lt;/p&gt;
+&lt;h2 id=&quot;多线程的特点：&quot;&gt;&lt;a href=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>商品效期需求疑问</title>
+    <link href="http://yoursite.com/2020/05/27/%E5%95%86%E5%93%81%E6%95%88%E6%9C%9F%E9%9C%80%E6%B1%82%E7%96%91%E9%97%AE/"/>
+    <id>http://yoursite.com/2020/05/27/%E5%95%86%E5%93%81%E6%95%88%E6%9C%9F%E9%9C%80%E6%B1%82%E7%96%91%E9%97%AE/</id>
+    <published>2020-05-27T05:28:54.000Z</published>
+    <updated>2020-05-27T05:28:54.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>feignclient 造成的问题</title>
+    <link href="http://yoursite.com/2020/05/22/feignclient%E9%80%A0%E6%88%90%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <id>http://yoursite.com/2020/05/22/feignclient%E9%80%A0%E6%88%90%E7%9A%84%E9%97%AE%E9%A2%98/</id>
+    <published>2020-05-22T02:11:09.000Z</published>
+    <updated>2020-05-22T02:12:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">public com.dffl.bl.common.response.Response com.dffl.verdor.client.hystrix.ThirdPartyCompensateFallbackFactory.consumeOrderMessage(com.dffl.verdor.client.dto.TaskApiDto)</span><br><span class="line">to &#123;[/jd/message/order],methods=[POST]&#125;: There is already 'consumeMessageTaskApiFallbackFactory' bean method</span><br><span class="line">public com.dffl.bl.common.response.Response com.dffl.verdor.client.hystrix.ConsumeMessageTaskApiFallbackFactory.consumeOrderMessage(com.dffl.verdor.client.dto.TaskApiDto) mapped.</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>上传文件报错</title>
+    <link href="http://yoursite.com/2020/05/19/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%8A%A5%E9%94%99/"/>
+    <id>http://yoursite.com/2020/05/19/%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E6%8A%A5%E9%94%99/</id>
+    <published>2020-05-19T04:33:02.000Z</published>
+    <updated>2020-05-19T04:33:02.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot上传文件异常</title>
+    <link href="http://yoursite.com/2020/05/19/SpringBoot%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%BC%82%E5%B8%B8/"/>
+    <id>http://yoursite.com/2020/05/19/SpringBoot%E4%B8%8A%E4%BC%A0%E6%96%87%E4%BB%B6%E5%BC%82%E5%B8%B8/</id>
+    <published>2020-05-19T04:32:01.000Z</published>
+    <updated>2020-05-19T05:24:49.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>线上项目报错上传文件失败</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">2020-05-19 10:09:29.366  WARN [app-mall-warehouse-billing,fd8e567e8c1efd06,2dd4c9339cebc563,false] 13238 --- [io-10027-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.multipart.MultipartException: Failed to parse multipart servlet request; nested exception is java.io.IOException: The temporary upload location [/tmp/tomcat.4318744977453906158.10027/work/Tomcat/localhost/ROOT] is not valid]</span><br></pre></td></tr></table></figure><p>文件排查发现<code>tmp/tomcat.*</code>目录被操作系统删除删除了。</p><p><img src="https://tva1.sinaimg.cn/large/007S8ZIlly1gexox7em99j30nq0ffwgk.jpg" alt="企业微信截图_1d2ebcb3-bcb9-4dcc-980f-9b2394403c52"></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;线上项目报错上传文件失败&lt;/p&gt;
+&lt;figure class=&quot;highlight shell&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>datalist</title>
+    <link href="http://yoursite.com/2020/04/08/datalist/"/>
+    <id>http://yoursite.com/2020/04/08/datalist/</id>
+    <published>2020-04-08T06:58:05.000Z</published>
+    <updated>2020-04-08T06:58:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">form</span> <span class="attr">action</span>=<span class="string">"#"</span>&gt;</span></span><br><span class="line">    输入你喜欢的编程语言:<span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"text"</span> <span class="attr">name</span>=<span class="string">"lang"</span> <span class="attr">list</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">datalist</span> <span class="attr">id</span>=<span class="string">"data"</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"java"</span>&gt;</span>java大法好<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"javaScript"</span>&gt;</span>javaScript更牛叉<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c"</span>&gt;</span>c比较难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c#"</span>&gt;</span>微软的贼船不要上<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line">        <span class="tag">&lt;<span class="name">option</span> <span class="attr">value</span>=<span class="string">"c++"</span>&gt;</span>比c还难<span class="tag">&lt;/<span class="name">option</span>&gt;</span></span><br><span class="line"></span><br><span class="line">    <span class="tag">&lt;/<span class="name">datalist</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">form</span>&gt;</span></span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight html&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NewSpan</title>
+    <link href="http://yoursite.com/2020/04/08/NewSpan/"/>
+    <id>http://yoursite.com/2020/04/08/NewSpan/</id>
+    <published>2020-04-08T01:22:26.000Z</published>
+    <updated>2020-04-08T01:22:51.000Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">Span a = tracer.nextSpan().name(<span class="string">"a"</span>);</span><br><span class="line">a.start().finish();;</span><br><span class="line">tracer.withSpanInScope(a);</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;figure class=&quot;highlight java&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Client创建失败</title>
+    <link href="http://yoursite.com/2020/03/24/Client%E5%88%9B%E5%BB%BA%E5%A4%B1%E8%B4%A5/"/>
+    <id>http://yoursite.com/2020/03/24/Client%E5%88%9B%E5%BB%BA%E5%A4%B1%E8%B4%A5/</id>
+    <published>2020-03-24T06:03:04.000Z</published>
+    <updated>2020-03-24T06:43:05.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Feign-Client-导致的启动失败"><a href="#Feign-Client-导致的启动失败" class="headerlink" title="Feign Client 导致的启动失败"></a>Feign Client 导致的启动失败</h2><h3 id="故障现象"><a href="#故障现象" class="headerlink" title="故障现象"></a>故障现象</h3><p>今天一位同事写了一个FeignClient接口，引用后应用启动失败</p><p>错误日志信息：</p><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br></pre></td><td class="code"><pre><span class="line">Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name <span class="string">'com.dffl.mall.warehouse.client.rest.WarehouseExpressRelationshipClient'</span>: FactoryBean threw exception on object creation; nested exception is java.lang.IllegalStateException: Method has too many Body parameters: <span class="keyword">public</span> <span class="keyword">abstract</span> com.dffl.bl.common.response.Response com.dffl.mall.warehouse.contract.WarehouseExpressRelationshipContract.findByWarehouseExpressCode(java.lang.String,java.lang.String)</span><br><span class="line">at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:<span class="number">178</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.getObjectFromFactoryBean(FactoryBeanRegistrySupport.java:<span class="number">101</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.AbstractBeanFactory.getObjectForBeanInstance(AbstractBeanFactory.java:<span class="number">1645</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getObjectForBeanInstance(AbstractAutowireCapableBeanFactory.java:<span class="number">1175</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:<span class="number">257</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:<span class="number">199</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:<span class="number">251</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.DefaultListableBeanFactory.addCandidateEntry(DefaultListableBeanFactory.java:<span class="number">1322</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:<span class="number">1288</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:<span class="number">1098</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:<span class="number">1062</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:<span class="number">507</span>) ~[spring-context-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:<span class="number">485</span>) ~[spring-context-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:<span class="number">619</span>) ~[spring-context-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:<span class="number">180</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:<span class="number">90</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:<span class="number">318</span>) ~[spring-context-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">... <span class="number">19</span> common frames omitted</span><br><span class="line">Caused by: java.lang.IllegalStateException: Method has too many Body parameters: <span class="keyword">public</span> <span class="keyword">abstract</span> com.dffl.bl.common.response.Response com.dffl.mall.warehouse.contract.WarehouseExpressRelationshipContract.findByWarehouseExpressCode(java.lang.String,java.lang.String)</span><br><span class="line">at feign.Util.checkState(Util.java:<span class="number">128</span>) ~[feign-core-<span class="number">9.5</span><span class="number">.1</span>.jar:na]</span><br><span class="line">at feign.Contract$BaseContract.parseAndValidateMetadata(Contract.java:<span class="number">117</span>) ~[feign-core-<span class="number">9.5</span><span class="number">.1</span>.jar:na]</span><br><span class="line">at org.springframework.cloud.openfeign.support.SpringMvcContract.parseAndValidateMetadata(SpringMvcContract.java:<span class="number">133</span>) ~[spring-cloud-openfeign-core-<span class="number">2.0</span><span class="number">.1</span>.RELEASE.jar:<span class="number">2.0</span><span class="number">.1</span>.RELEASE]</span><br><span class="line">at feign.Contract$BaseContract.parseAndValidatateMetadata(Contract.java:<span class="number">66</span>) ~[feign-core-<span class="number">9.5</span><span class="number">.1</span>.jar:na]</span><br><span class="line">at feign.ReflectiveFeign$ParseHandlersByName.apply(ReflectiveFeign.java:<span class="number">146</span>) ~[feign-core-<span class="number">9.5</span><span class="number">.1</span>.jar:na]</span><br><span class="line">at feign.ReflectiveFeign.newInstance(ReflectiveFeign.java:<span class="number">53</span>) ~[feign-core-<span class="number">9.5</span><span class="number">.1</span>.jar:na]</span><br><span class="line">at feign.Feign$Builder.target(Feign.java:<span class="number">218</span>) ~[feign-core-<span class="number">9.5</span><span class="number">.1</span>.jar:na]</span><br><span class="line">at org.springframework.cloud.openfeign.HystrixTargeter.target(HystrixTargeter.java:<span class="number">39</span>) ~[spring-cloud-openfeign-core-<span class="number">2.0</span><span class="number">.1</span>.RELEASE.jar:<span class="number">2.0</span><span class="number">.1</span>.RELEASE]</span><br><span class="line">at org.springframework.cloud.openfeign.FeignClientFactoryBean.loadBalance(FeignClientFactoryBean.java:<span class="number">223</span>) ~[spring-cloud-openfeign-core-<span class="number">2.0</span><span class="number">.1</span>.RELEASE.jar:<span class="number">2.0</span><span class="number">.1</span>.RELEASE]</span><br><span class="line">at org.springframework.cloud.openfeign.FeignClientFactoryBean.getObject(FeignClientFactoryBean.java:<span class="number">244</span>) ~[spring-cloud-openfeign-core-<span class="number">2.0</span><span class="number">.1</span>.RELEASE.jar:<span class="number">2.0</span><span class="number">.1</span>.RELEASE]</span><br><span class="line">at org.springframework.beans.factory.support.FactoryBeanRegistrySupport.doGetObjectFromFactoryBean(FactoryBeanRegistrySupport.java:<span class="number">171</span>) ~[spring-beans-<span class="number">5.0</span><span class="number">.9</span>.RELEASE.jar:<span class="number">5.0</span><span class="number">.9</span>.RELEASE]</span><br><span class="line">... <span class="number">35</span> common frames omitted</span><br><span class="line"></span><br><span class="line">Disconnected from the target VM, address: <span class="string">'127.0.0.1:57677'</span>, transport: <span class="string">'socket'</span></span><br></pre></td></tr></table></figure><h3 id="导致原因"><a href="#导致原因" class="headerlink" title="导致原因"></a>导致原因</h3><p>在定义Client接口是直接使用了两个String接收数据</p><h3 id="解决办法"><a href="#解决办法" class="headerlink" title="解决办法"></a>解决办法</h3><h3 id="优化建议"><a href="#优化建议" class="headerlink" title="优化建议"></a>优化建议</h3>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;Feign-Client-导致的启动失败&quot;&gt;&lt;a href=&quot;#Feign-Client-导致的启动失败&quot; class=&quot;headerlink&quot; title=&quot;Feign Client 导致的启动失败&quot;&gt;&lt;/a&gt;Feign Client 导致的启动失败&lt;/h2&gt;&lt;
+      
+    
+    </summary>
+    
+    
+    
+      <category term="SpringCloud 错误日志" scheme="http://yoursite.com/tags/SpringCloud-%E9%94%99%E8%AF%AF%E6%97%A5%E5%BF%97/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>SpringBoot对响应的时间格式的处理</title>
+    <link href="http://yoursite.com/2020/03/24/SpringBoot%E5%AF%B9%E5%93%8D%E5%BA%94%E7%9A%84%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9A%84%E5%A4%84%E7%90%86/"/>
+    <id>http://yoursite.com/2020/03/24/SpringBoot%E5%AF%B9%E5%93%8D%E5%BA%94%E7%9A%84%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9A%84%E5%A4%84%E7%90%86/</id>
+    <published>2020-03-24T02:04:35.000Z</published>
+    <updated>2020-03-24T03:24:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="后端接口响应时候全局处理"><a href="#后端接口响应时候全局处理" class="headerlink" title="后端接口响应时候全局处理"></a>后端接口响应时候全局处理</h2><figure class="highlight yml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">spring:</span></span><br><span class="line">  <span class="attr">jackson:</span></span><br><span class="line">    <span class="attr">date-format:</span> <span class="string">yyyy-MM-dd</span> <span class="string">HH:mm:ss</span></span><br><span class="line">    <span class="attr">time-zone:</span> <span class="string">GMT+8</span></span><br></pre></td></tr></table></figure><h2 id="JS-function处理时间格式"><a href="#JS-function处理时间格式" class="headerlink" title="JS function处理时间格式"></a>JS function处理时间格式</h2><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//自定义转化函数</span></span><br><span class="line"><span class="built_in">Date</span>.prototype.Format = <span class="function"><span class="keyword">function</span> (<span class="params">fmt</span>) </span>&#123;</span><br><span class="line">    <span class="keyword">let</span> o = &#123;</span><br><span class="line">        <span class="string">"M+"</span>: <span class="keyword">this</span>.getMonth() + <span class="number">1</span>, <span class="comment">//月份</span></span><br><span class="line">        <span class="string">"d+"</span>: <span class="keyword">this</span>.getDate(), <span class="comment">//日</span></span><br><span class="line">        <span class="string">"h+"</span>: <span class="keyword">this</span>.getHours(), <span class="comment">//小时</span></span><br><span class="line">        <span class="string">"m+"</span>: <span class="keyword">this</span>.getMinutes(), <span class="comment">//分</span></span><br><span class="line">        <span class="string">"s+"</span>: <span class="keyword">this</span>.getSeconds(), <span class="comment">//秒</span></span><br><span class="line">        <span class="string">"q+"</span>: <span class="built_in">Math</span>.floor((<span class="keyword">this</span>.getMonth() + <span class="number">3</span>) / <span class="number">3</span>), <span class="comment">//季度</span></span><br><span class="line">        <span class="string">"S"</span>: <span class="keyword">this</span>.getMilliseconds() <span class="comment">//毫秒</span></span><br><span class="line">    &#125;;</span><br><span class="line">    <span class="keyword">if</span> (<span class="regexp">/(y+)/</span>.test(fmt)) fmt = fmt.replace(<span class="built_in">RegExp</span>.$<span class="number">1</span>, (<span class="keyword">this</span>.getFullYear() + <span class="string">""</span>).substr(<span class="number">4</span> - <span class="built_in">RegExp</span>.$<span class="number">1.</span>length));</span><br><span class="line">    <span class="keyword">for</span> (<span class="keyword">let</span> k <span class="keyword">in</span> o)</span><br><span class="line">        <span class="keyword">if</span> (<span class="keyword">new</span> <span class="built_in">RegExp</span>(<span class="string">"("</span> + k + <span class="string">")"</span>).test(fmt)) fmt = fmt.replace(<span class="built_in">RegExp</span>.$<span class="number">1</span>, (<span class="built_in">RegExp</span>.$<span class="number">1.</span>length == <span class="number">1</span>) ? (o[k]) : ((<span class="string">"00"</span> + o[k]).substr((<span class="string">""</span> + o[k]).length)));</span><br><span class="line">    <span class="keyword">return</span> fmt;</span><br><span class="line">&#125;;</span><br><span class="line"></span><br><span class="line"><span class="comment">//测试代码</span></span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">new</span> <span class="built_in">Date</span>());</span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">new</span> <span class="built_in">Date</span>().Format(<span class="string">"yyyyMMdd"</span>));</span><br><span class="line"><span class="built_in">console</span>.log(<span class="keyword">new</span> <span class="built_in">Date</span>().Format(<span class="string">"yyyy-MM-dd hh:mm:ss"</span>));</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;后端接口响应时候全局处理&quot;&gt;&lt;a href=&quot;#后端接口响应时候全局处理&quot; class=&quot;headerlink&quot; title=&quot;后端接口响应时候全局处理&quot;&gt;&lt;/a&gt;后端接口响应时候全局处理&lt;/h2&gt;&lt;figure class=&quot;highlight yml&quot;&gt;&lt;ta
+      
+    
+    </summary>
+    
+    
+    
+      <category term="SpringBoot" scheme="http://yoursite.com/tags/SpringBoot/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>spring条件判断</title>
+    <link href="http://yoursite.com/2020/03/23/spring%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/"/>
+    <id>http://yoursite.com/2020/03/23/spring%E6%9D%A1%E4%BB%B6%E5%88%A4%E6%96%AD/</id>
+    <published>2020-03-23T11:42:52.000Z</published>
+    <updated>2020-03-23T17:58:54.000Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="Spring-条件判断"><a href="#Spring-条件判断" class="headerlink" title="Spring 条件判断"></a>Spring 条件判断</h1><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">package</span> com.dffl.warehouse.billing.config.datasource.druid;</span><br><span class="line"></span><br><span class="line"><span class="keyword">import</span> com.alibaba.druid.support.http.StatViewServlet;</span><br><span class="line"><span class="keyword">import</span> com.alibaba.druid.support.http.WebStatFilter;</span><br><span class="line"><span class="keyword">import</span> lombok.extern.slf4j.Slf4j;</span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.web.servlet.FilterRegistrationBean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.boot.web.servlet.ServletRegistrationBean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Bean;</span><br><span class="line"><span class="keyword">import</span> org.springframework.context.annotation.Configuration;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Slf</span>4j</span><br><span class="line"><span class="meta">@Configuration</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">DruidConfig</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Bean</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> ServletRegistrationBean <span class="title">druidServlet</span><span class="params">()</span> </span>&#123;</span><br><span class="line">ServletRegistrationBean bean = <span class="keyword">new</span> ServletRegistrationBean(<span class="keyword">new</span> StatViewServlet(), <span class="string">"/druid/*"</span>);</span><br><span class="line"><span class="comment">//bean.addInitParameter("allow", "127.0.0.1");</span></span><br><span class="line">bean.addInitParameter(<span class="string">"resetEnable"</span>, <span class="string">"false"</span>);</span><br><span class="line">bean.addInitParameter(<span class="string">"loginUsername"</span>, <span class="string">"admin"</span>);</span><br><span class="line">bean.addInitParameter(<span class="string">"loginPassword"</span>, <span class="string">"987654"</span>);</span><br><span class="line"><span class="keyword">return</span> bean;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="meta">@Bean</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> FilterRegistrationBean <span class="title">statFilter</span><span class="params">()</span> </span>&#123;</span><br><span class="line">FilterRegistrationBean bean = <span class="keyword">new</span> FilterRegistrationBean(<span class="keyword">new</span> WebStatFilter());</span><br><span class="line">bean.addUrlPatterns(<span class="string">"/*"</span>);</span><br><span class="line">bean.addInitParameter(<span class="string">"exclusions"</span>, <span class="string">"*.js,*.gif,/druid/*"</span>);</span><br><span class="line"><span class="keyword">return</span> bean;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;Spring-条件判断&quot;&gt;&lt;a href=&quot;#Spring-条件判断&quot; class=&quot;headerlink&quot; title=&quot;Spring 条件判断&quot;&gt;&lt;/a&gt;Spring 条件判断&lt;/h1&gt;&lt;figure class=&quot;highlight java&quot;&gt;&lt;table
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Spring" scheme="http://yoursite.com/tags/Spring/"/>
+    
+  </entry>
+  
+</feed>
