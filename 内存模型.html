@@ -79,14 +79,23 @@
 
 
 
-<meta name="description" content="人生如戏，戏如人生">
+<meta name="description" content="内存模型我们常说的JVM内存模式指的是JVM的内存分区；而Java内存模式是一种虚拟机规范 Java内存模型（JMM）Java虚拟机规范中定义了Java内存模型（Java Memory Model，JMM），用于屏蔽掉各种硬件和操作系统的内存访问差异，以实现让Java程序在各种平台下都能达到一致的并发效果，JMM规范了Java虚拟机与计算机内存是如何协同工作的：规定了一个线程如何和何时可以看到由其">
 <meta property="og:type" content="website">
 <meta property="og:title" content="侯争明的博客">
-<meta property="og:url" content="http://yoursite.com/tags/SpringBoot/index.html">
+<meta property="og:url" content="http://yoursite.com/%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B.html">
 <meta property="og:site_name" content="侯争明的博客">
-<meta property="og:description" content="人生如戏，戏如人生">
+<meta property="og:description" content="内存模型我们常说的JVM内存模式指的是JVM的内存分区；而Java内存模式是一种虚拟机规范 Java内存模型（JMM）Java虚拟机规范中定义了Java内存模型（Java Memory Model，JMM），用于屏蔽掉各种硬件和操作系统的内存访问差异，以实现让Java程序在各种平台下都能达到一致的并发效果，JMM规范了Java虚拟机与计算机内存是如何协同工作的：规定了一个线程如何和何时可以看到由其">
+<meta property="og:image" content="https://pic3.zhimg.com/80/v2-f36f366c07a6188ea3fdefc794ba021a_720w.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-42d8f894f17ccf13252d8d8d6285f86b_720w.jpg">
+<meta property="og:image" content="https://pic3.zhimg.com/80/v2-2ce112590b4b81cdb02b8839d9d8b686_720w.jpg">
+<meta property="og:image" content="https://pic1.zhimg.com/80/v2-f50b6067d0c759b20bc7bea72f0e4690_720w.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-437ebf30028ea4364533da27460a3077_720w.jpg">
+<meta property="og:image" content="https://pic4.zhimg.com/80/v2-52d9c8897b541c9e4e5a41be59b482ef_720w.jpg">
+<meta property="article:published_time" content="2021-02-22T08:19:27.349Z">
+<meta property="article:modified_time" content="2021-02-22T08:19:27.343Z">
 <meta property="article:author" content="侯争明">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://pic3.zhimg.com/80/v2-f36f366c07a6188ea3fdefc794ba021a_720w.jpg">
 
 
 
@@ -116,13 +125,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/tags/SpringBoot/"/>
+  <link rel="canonical" href="http://yoursite.com/内存模型.html"/>
 
 
 
 
 
-  <title>标签: SpringBoot | 侯争明的博客</title>
+  <title> | 侯争明的博客</title>
   
 
 
@@ -151,7 +160,7 @@
     
   
 
-  <div class="container sidebar-position-right ">
+  <div class="container sidebar-position-right page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -289,54 +298,98 @@
           <div id="content" class="content">
             
 
-  
-  
-  
-  <div class="post-block tag">
+  <div id="posts" class="posts-expand">
+    
+    
+    
+    <div class="post-block page">
+      <header class="post-header">
 
-    <div id="posts" class="posts-collapse">
-      <div class="collection-title">
-        <h1>SpringBoot<small>标签</small>
-        </h1>
-      </div>
+	<h1 class="post-title" itemprop="name headline"></h1>
+
+
+
+</header>
 
       
+      
+      
+      <div class="post-body">
         
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
         
-            <a class="post-title-link" href="/2020/03/24/SpringBoot%E5%AF%B9%E5%93%8D%E5%BA%94%E7%9A%84%E6%97%B6%E9%97%B4%E6%A0%BC%E5%BC%8F%E7%9A%84%E5%A4%84%E7%90%86/" itemprop="url">
-              
-                <span itemprop="name">SpringBoot对响应的时间格式的处理</span>
-              
-            </a>
+          <h3 id="内存模型"><a href="#内存模型" class="headerlink" title="内存模型"></a>内存模型</h3><p>我们常说的JVM内存模式指的是JVM的内存分区；而Java内存模式是一种虚拟机规范</p>
+<h4 id="Java内存模型（JMM）"><a href="#Java内存模型（JMM）" class="headerlink" title="Java内存模型（JMM）"></a>Java内存模型（JMM）</h4><p>Java虚拟机规范中定义了Java内存模型（Java Memory Model，JMM），用于屏蔽掉各种硬件和操作系统的内存访问差异，以实现让Java程序在各种平台下都能达到一致的并发效果，JMM规范了Java虚拟机与计算机内存是如何协同工作的：规定了一个线程如何和何时可以看到由其他线程修改过后的共享变量的值，以及在必须时如何同步的访问共享变量。</p>
+<p>Java内存模型（不仅仅是JVM内存分区）：<strong>调用栈和本地变量存放在线程栈上，对象存放在堆上。</strong></p>
+<p><img src="https://pic3.zhimg.com/80/v2-f36f366c07a6188ea3fdefc794ba021a_720w.jpg" alt="img"></p>
+<h5 id="JMM定义了什么"><a href="#JMM定义了什么" class="headerlink" title="JMM定义了什么"></a>JMM定义了什么</h5><p>整个Java内存模型实际上是围绕着三个特征建立起来的。分别是：<strong>原子性</strong>，<strong>可见性</strong>，<strong>有序性</strong>。这三个特征可谓是整个Java并发的基础</p>
+<h6 id="原子性"><a href="#原子性" class="headerlink" title="原子性"></a><strong>原子性</strong></h6><p>原子性指的是一个操作是不可分割，不可中断的，一个线程在执行时不会被其他线程干扰。</p>
+<p>JMM只能保证基本的原子性，如果要保证一个代码块的原子性，提供了monitorenter 和 moniterexit 两个字节码指令，也就是 <strong>synchronized</strong> 关键字。因此在 <strong>synchronized</strong> 块之间的操作都是原子性的</p>
+<h6 id="可见性"><a href="#可见性" class="headerlink" title="可见性"></a>可见性</h6><p>可见性指当一个线程修改共享变量的值，其他线程能够立即知道被修改了。Java是利用volatile关键字来提供可见性的。 当变量被volatile修饰时，这个变量被修改后会立刻刷新到主内存，当其它线程需要读取该变量时，会去主内存中读取新值。而普通变量则不能保证这一点。</p>
+<p>除了<strong>volatile</strong>关键字之外，<strong>final</strong>和<strong>synchronized</strong>也能实现可见性。</p>
+<p><strong>synchronized</strong>的原理是，在执行完，进入unlock之前，必须将共享变量同步到主内存中。</p>
+<p><strong>final</strong>修饰的字段，一旦初始化完成，如果没有对象逸出（指对象为初始化完成就可以被别的线程使用），那么对于其他线程都是可见的。</p>
+<h6 id="有序性"><a href="#有序性" class="headerlink" title="有序性"></a>有序性</h6><p>在Java中，可以使用synchronized或者volatile保证多线程之间操作的有序性。实现原理有些区别：</p>
+<p>volatile关键字是使用内存屏障达到禁止指令重排序，以保证有序性。</p>
+<p>synchronized的原理是，一个线程lock之后，必须unlock后，其他线程才可以重新lock，使得被synchronized包住的代码块在多线程之间是串行执行的。</p>
+<h5 id="内存交互操作"><a href="#内存交互操作" class="headerlink" title="内存交互操作"></a>内存交互操作</h5><p><img src="https://pic4.zhimg.com/80/v2-42d8f894f17ccf13252d8d8d6285f86b_720w.jpg" alt="img"></p>
+<ul>
+<li>lock(锁定)，作用于<strong>主内存</strong>中的变量，把变量标识为线程独占的状态。</li>
+<li>read(读取)，作用于<strong>主内存</strong>的变量，把变量的值从主内存传输到线程的工作内存中，以便下一步的load操作使用。</li>
+<li>load(加载)，作用于<strong>工作内存</strong>的变量，把read操作主存的变量放入到工作内存的变量副本中。</li>
+<li>use(使用)，作用于<strong>工作内存</strong>的变量，把工作内存中的变量传输到执行引擎，每当虚拟机遇到一个需要使用到变量的值的字节码指令时将会执行这个操作。</li>
+<li>assign(赋值)，作用于<strong>工作内存</strong>的变量，它把一个从执行引擎中接受到的值赋值给工作内存的变量副本中，每当虚拟机遇到一个给变量赋值的字节码指令时将会执行这个操作。</li>
+<li>store(存储)，作用于<strong>工作内存</strong>的变量，它把一个从工作内存中一个变量的值传送到主内存中，以便后续的write使用。</li>
+<li>write(写入)：作用于<strong>主内存</strong>中的变量，它把store操作从工作内存中得到的变量的值放入主内存的变量中。</li>
+<li>unlock(解锁)：作用于<strong>主内存</strong>的变量，它把一个处于锁定状态的变量释放出来，释放后的变量才可以被其他线程锁定。</li>
+</ul>
+<p>JMM对8种内存交互操作制定的规则</p>
+<ul>
+<li>不允许read、load、store、write操作之一单独出现，也就是read操作后必须load，store操作后必须write。</li>
+<li>不允许线程丢弃他最近的assign操作，即工作内存中的变量数据改变了之后，必须告知主存。</li>
+<li>不允许线程将没有assign的数据从工作内存同步到主内存。</li>
+<li>一个新的变量必须在主内存中诞生，不允许工作内存直接使用一个未被初始化的变量。就是对变量实施use、store操作之前，必须经过load和assign操作。</li>
+<li>一个变量同一时间只能有一个线程对其进行lock操作。多次lock之后，必须执行相同次数unlock才可以解锁。</li>
+<li>如果对一个变量进行lock操作，会清空所有工作内存中此变量的值。在执行引擎使用这个变量前，必须重新load或assign操作初始化变量的值。</li>
+<li>如果一个变量没有被lock，就不能对其进行unlock操作。也不能unlock一个被其他线程锁住的变量。</li>
+<li>一个线程对一个变量进行unlock操作之前，必须先把此变量同步回主内存。</li>
+</ul>
+<h5 id="volatile关键字"><a href="#volatile关键字" class="headerlink" title="volatile关键字"></a>volatile关键字</h5><ol>
+<li><strong>保证线程间变量的可见性。</strong></li>
+<li><strong>禁止CPU进行指令重排序。</strong></li>
+</ol>
+<h6 id="可见性-1"><a href="#可见性-1" class="headerlink" title="可见性"></a>可见性</h6><p>volatile修饰的变量，当一个线程改变了该变量的值，其他线程是立即可见的。普通变量则需要重新读取才能获得最新值。</p>
+<p><img src="https://pic3.zhimg.com/80/v2-2ce112590b4b81cdb02b8839d9d8b686_720w.jpg" alt="img"></p>
+<h6 id="volatile一定能保证线程安全吗"><a href="#volatile一定能保证线程安全吗" class="headerlink" title="volatile一定能保证线程安全吗"></a>volatile一定能保证线程安全吗</h6><p><strong>不能</strong>可见性不能保证操作的原子性</p>
+<p><img src="https://pic1.zhimg.com/80/v2-f50b6067d0c759b20bc7bea72f0e4690_720w.jpg" alt="img"></p>
+<p>指令重排序在单线程是没有问题的，不会影响执行结果，而且还提高了性能。但是在多线程的环境下就不能保证一定不会影响执行结果了</p>
+<p><strong>所以在多线程环境下，就需要禁止指令重排序</strong></p>
+<p>volatile关键字禁止指令重排序有两层意思：</p>
+<ul>
+<li>当程序执行到volatile变量的读操作或者写操作时，在其前面的操作的更改肯定全部已经进行，且结果已经对后面的操作可见，在其后面的操作肯定还没有进行。</li>
+<li>在进行指令优化时，不能将在对volatile变量访问的语句放在其后面执行，也不能把volatile变量后面的语句放到其前面执行</li>
+</ul>
+<p>原理</p>
+<ul>
+<li>LoadLoad 屏障：对于这样的语句Load1，LoadLoad，Load2。在Load2及后续读取操作要读取的数据被访问前，保证Load1要读取的数据被读取完毕。</li>
+<li>StoreStore屏障：对于这样的语句Store1， StoreStore， Store2，在Store2及后续写入操作执行前，保证Store1的写入操作对其它处理器可见。</li>
+<li>LoadStore 屏障：对于这样的语句Load1， LoadStore，Store2，在Store2及后续写入操作被刷出前，保证Load1要读取的数据被读取完毕。</li>
+<li>StoreLoad 屏障：对于这样的语句Store1， StoreLoad，Load2，在Load2及后续所有读取操作执行前，保证Store1的写入对所有处理器可见。</li>
+</ul>
+<p>在每个volatile读操作后插入LoadLoad屏障，在读操作后插入LoadStore屏障。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-437ebf30028ea4364533da27460a3077_720w.jpg" alt="img"></p>
+<p>在每个volatile写操作的前面插入一个StoreStore屏障，后面插入一个SotreLoad屏障。</p>
+<p><img src="https://pic4.zhimg.com/80/v2-52d9c8897b541c9e4e5a41be59b482ef_720w.jpg" alt="img"></p>
+<h4 id="Jvm内存模型"><a href="#Jvm内存模型" class="headerlink" title="Jvm内存模型"></a>Jvm内存模型</h4>
         
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2020-03-24T10:04:35+08:00"
-              content="2020-03-24" >
-          03-24
-        </time>
       </div>
-
-    </header>
-  </article>
-
-
+      
+      
       
     </div>
-
+    
+    
+    
   </div>
-  
-  
-  
-
-  
 
 
           </div>
@@ -344,6 +397,10 @@
 
 
           
+
+  
+
+
 
         </div>
         
@@ -364,8 +421,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -436,6 +502,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#内存模型"><span class="nav-number">1.</span> <span class="nav-text">内存模型</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Java内存模型（JMM）"><span class="nav-number">1.1.</span> <span class="nav-text">Java内存模型（JMM）</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#JMM定义了什么"><span class="nav-number">1.1.1.</span> <span class="nav-text">JMM定义了什么</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#原子性"><span class="nav-number">1.1.1.1.</span> <span class="nav-text">原子性</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#可见性"><span class="nav-number">1.1.1.2.</span> <span class="nav-text">可见性</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#有序性"><span class="nav-number">1.1.1.3.</span> <span class="nav-text">有序性</span></a></li></ol></li><li class="nav-item nav-level-5"><a class="nav-link" href="#内存交互操作"><span class="nav-number">1.1.2.</span> <span class="nav-text">内存交互操作</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#volatile关键字"><span class="nav-number">1.1.3.</span> <span class="nav-text">volatile关键字</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#可见性-1"><span class="nav-number">1.1.3.1.</span> <span class="nav-text">可见性</span></a></li><li class="nav-item nav-level-6"><a class="nav-link" href="#volatile一定能保证线程安全吗"><span class="nav-number">1.1.3.2.</span> <span class="nav-text">volatile一定能保证线程安全吗</span></a></li></ol></li></ol></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Jvm内存模型"><span class="nav-number">1.2.</span> <span class="nav-text">Jvm内存模型</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -572,6 +654,10 @@
 
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.4"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.4"></script>
+
+
 
   
 

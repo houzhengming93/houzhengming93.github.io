@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-11T15:01:43.057Z</updated>
+  <updated>2020-06-18T15:49:55.397Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,35 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>线程的原子性：</title>
+    <link href="http://yoursite.com/2020/06/18/%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%8E%9F%E5%AD%90%E6%80%A7%EF%BC%9A/"/>
+    <id>http://yoursite.com/2020/06/18/%E7%BA%BF%E7%A8%8B%E7%9A%84%E5%8E%9F%E5%AD%90%E6%80%A7%EF%BC%9A/</id>
+    <published>2020-06-18T15:48:28.060Z</published>
+    <updated>2020-06-18T15:49:55.397Z</updated>
+    
+    <content type="html"><![CDATA[<p>线程的原子性：</p><p>线程不可中断</p><p>synchronized 互斥锁</p><p>受保护的资源的共享</p><p>锁的范围</p><p>类锁/对象锁</p><p>锁的对象的生命周期</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;线程的原子性：&lt;/p&gt;
+&lt;p&gt;线程不可中断&lt;/p&gt;
+&lt;p&gt;synchronized 互斥锁&lt;/p&gt;
+&lt;p&gt;受保护的资源的共享&lt;/p&gt;
+&lt;p&gt;锁的范围&lt;/p&gt;
+&lt;p&gt;类锁/对象锁&lt;/p&gt;
+&lt;p&gt;锁的对象的生命周期&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>版本号规则</title>
